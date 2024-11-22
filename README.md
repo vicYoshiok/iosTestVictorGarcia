@@ -1,6 +1,5 @@
 # Examen iOs victor garcia
 Prueba de conocimientos iOS y swift 
-## Índice
 
 
 ## Descripción
