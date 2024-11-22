@@ -1,0 +1,6 @@
+framework module Pods_exameniOsVictorGarcia_exameniOsVictorGarciaUITests {
+  umbrella header "Pods-exameniOsVictorGarcia-exameniOsVictorGarciaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
