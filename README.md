@@ -34,15 +34,15 @@ Lista de los requisitos necesarios para ejecutar el proyecto:
   unknowed: parecidas a las weak pero no pueden ser nulas
   
 - Explica el ciclo de vida de una aplicación:
-  el ciclo de vida es el siguiente:
+  -el ciclo de vida es el siguiente:
   inactiva --> activa --> suspendida o en tarea de segundo plano --> terminada
   cuando esta activa se ejecutan metodos en el appdelegate o scenedelegate como applicationDidBecomeActive() y sceneDidBecomeActive(_:)
   cuando esta en bacground se ejecutan metodos como applicationDidEnterBackground() 
   Cuando la app está en segundo plano y no está realizando ninguna tarea activa, se suspende. si regresa a primer plano se ejecutan metodos como willenterIntheForeground()
   terminate es el estado de finalización se ejecutan metodos como applicationWillTerminate()
 
-  -Explica el ciclo de vida de un controlador
-  init para iniciarlo y viewDidLoad()    para la configuracion inicial, despues se ejecutan viewWillAppear() justo antes de aparecer y viewDidAppear() despues de que aparece para cargar datos y animaciones depende de lo que necesites
+  -Explica el ciclo de vida de un controlador:
+  -Init para iniciarlo y viewDidLoad()    para la configuracion inicial, despues se ejecutan viewWillAppear() justo antes de aparecer y viewDidAppear() despues de que aparece para cargar datos y animaciones depende de lo que necesites
   posteriormente al desaparecer se ejecutan viewWillDisappear() y viewDidDisappear( ) antes y despues de desaparecer donde puedes realizar acciones como guardar datos o limpiar objetos
   cuando un controlador apare nuevamente en primer plano, el viewdidload no se ejecuta de nuevo, unicamente los metodos appear
   
